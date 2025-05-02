@@ -156,6 +156,7 @@ function App() {
     <div>
       <Formulario botao={btnCadastrar} eventoTeclado={aoDigitar} cadastrar={cadastrar} obj={objProduto} cancelar={limparFormulario} deletar={deletar} alterar={alterar}/>
       <Tabela vetor={produtos} selecionar={selecionarProduto}/>
+      
     </div>
   );
 }

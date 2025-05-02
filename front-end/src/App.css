@@ -1,29 +1,38 @@
-h1.formulario{
-  width: 200px;
-  margin: 20px auto;
-  padding: 0;
-  text-align: center;
-  background-color: #0e3658;
+@import url(
+  'https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100..900;1,100..900'
+);
+
+div.formulario{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-h1 input.formulario{
-  margin-bottom: 0 auto;
+div.Sidebar{
+  box-sizing: border-box;
+  width: 150px;
+  height: 100vw;
+  background-color:lightslategrey;
 }
 
-h1 input.formulario[type="button"]{
-  margin-right: 10px;
+div.body{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  background-color:whitesmoke;
 }
 
 table.table{
-  width: 200px;
+  width: 0px;
   margin: 20px auto;
   padding: 0;
   text-align: center;
 }
 
 header.header{
-  margin: 0 auto;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
   text-transform: uppercase;
   font-weight: bold;
   background-color:rgb(96, 226, 226);
@@ -38,10 +47,43 @@ div.container{
 img.logoimagem{
   margin: 10px;
   width: 200px;
-  height: auto;
+  display: block;
 }
 
 p.formulariotitulo{
-  margin: 0;
+  font-size: 35px;
+  text-align: left;
+  justify-self: center;
+  border-bottom: thin solid;
+  padding: 24px 30px;
+  width: 100%;
+  background-color: white;
+}
+
+p.textbox{
+  display: flex;
+  margin: 20px;
+  padding: 50px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  background-color: white;
+  
+  
+}
+
+p.barrabotoes{
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  justify-content: right;
+  background-color:white;
+}
+form input[type='button']{
+  margin: 5px;
+  padding: 10px;
+  
+  
 }
